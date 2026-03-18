@@ -1,0 +1,121 @@
+.footer {
+  margin-top: auto;
+  background: var(--color-brown-dark);
+  color: var(--color-cream);
+  padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 2rem) 2rem;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.footer-brand .footer-logo {
+  margin-bottom: 0.75rem;
+  display: inline-block;
+}
+
+.footer-logo-img {
+  height: 50px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  filter: brightness(0) invert(1) drop-shadow(0 1px 3px rgba(0, 0, 0, 0.25));
+}
+
+.footer-brand .footer-company-name {
+  font-size: 0.85rem;
+  color: rgba(250, 248, 245, 0.75);
+  margin-bottom: 0.5rem;
+}
+
+.footer-brand p {
+  color: rgba(250, 248, 245, 0.85);
+  font-size: 0.95rem;
+  max-width: 280px;
+}
+
+.footer-section h4 {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-pastel-brown-light);
+  margin: 0 0 1rem;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: rgba(250, 248, 245, 0.9);
+  font-size: 0.95rem;
+  transition: color var(--transition);
+}
+
+.footer-links a:hover {
+  color: var(--color-pastel-brown-light);
+}
+
+.footer-contact p {
+  color: rgba(250, 248, 245, 0.9);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-contact a {
+  color: rgba(250, 248, 245, 0.9);
+}
+
+.footer-contact a:hover {
+  color: var(--color-pastel-brown-light);
+}
+
+.footer-bottom {
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  font-size: 0.875rem;
+  color: rgba(250, 248, 245, 0.7);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem clamp(1rem, 4vw, 1.25rem) 1.5rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-brand p {
+    max-width: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 1.5rem 1rem 1.25rem;
+  }
+
+  .footer-grid {
+    gap: 1.5rem;
+  }
+}

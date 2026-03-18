@@ -1,0 +1,314 @@
+.project-detail {
+  padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 2rem) clamp(2rem, 6vw, 4rem);
+}
+
+.project-detail-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.project-detail-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.project-detail-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: var(--color-ink-soft);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: var(--color-white);
+  border: 1px solid var(--color-grey-light);
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(32, 33, 33, 0.06);
+  transition: border-color var(--transition), box-shadow var(--transition), color var(--transition);
+}
+
+.project-detail-back svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.project-detail-back:hover {
+  color: var(--color-brown);
+  border-color: var(--color-pastel-brown-light);
+  box-shadow: 0 2px 8px rgba(44, 40, 37, 0.1);
+}
+
+.project-detail-header {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.project-detail-badge {
+  display: inline-block;
+  font-size: var(--badge-font-size);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: var(--badge-padding);
+  border-radius: var(--badge-radius);
+  background: var(--color-pastel-brown);
+  color: var(--color-white);
+}
+
+.project-detail-badge--sold {
+  background: var(--color-sold);
+}
+
+.project-detail-title {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  margin: 0 0 0.5rem;
+}
+
+.project-detail-location {
+  color: var(--color-pastel-brown-dark);
+  font-size: 1rem;
+  margin: 0 0 1rem;
+}
+
+.project-detail-description {
+  color: var(--color-text-light);
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.project-detail-section {
+  margin-bottom: 3rem;
+}
+
+.project-detail-section h2 {
+  font-size: 1.25rem;
+  margin: 0 0 1.25rem;
+}
+
+.project-detail-hero-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-detail-hero-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-detail-hero-item {
+  flex: 1;
+  min-width: 180px;
+  max-width: calc(33.333% - 0.67rem);
+  aspect-ratio: 4 / 3;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  background: var(--color-cream-dark);
+}
+
+.project-detail-hero-item img,
+.project-detail-apartment-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.project-detail-hero-arrow {
+  display: none;
+}
+
+.project-detail-pdf-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  background: var(--color-white);
+  border-radius: 6px;
+  padding: 1.75rem;
+  box-shadow: var(--shadow-soft);
+  border: 1px solid var(--color-grey-light);
+}
+
+.project-detail-pdf-icon {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-cream);
+  color: var(--color-pastel-brown);
+  border-radius: 4px;
+}
+
+.project-detail-pdf-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.project-detail-pdf-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.project-detail-pdf-content p {
+  margin: 0 0 1.25rem;
+  color: var(--color-text-light);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.project-detail-pdf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.project-detail-pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background var(--transition), color var(--transition), border-color var(--transition),
+    transform var(--transition), box-shadow var(--transition);
+}
+
+.project-detail-pdf-btn--primary {
+  background: var(--color-pastel-brown);
+  color: #ffffff;
+  border: 2px solid var(--color-pastel-brown);
+}
+
+.project-detail-pdf-btn--primary:hover {
+  background: var(--color-brown);
+  border-color: var(--color-brown);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(132, 109, 96, 0.35);
+}
+
+.project-detail-pdf-btn--primary:focus-visible {
+  outline: 2px solid var(--color-brown);
+  outline-offset: 2px;
+}
+
+.project-detail-pdf-btn--secondary {
+  background: transparent;
+  color: var(--color-pastel-brown-dark);
+  border: 2px solid var(--color-grey-light);
+}
+
+.project-detail-pdf-btn--secondary:hover {
+  background: var(--color-cream);
+  border-color: var(--color-pastel-brown-light);
+  color: var(--color-brown-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(44, 40, 37, 0.12);
+}
+
+.project-detail-apartments {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-detail-apartment-item {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  background: var(--color-cream-dark);
+}
+
+.project-detail-apartment-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  vertical-align: top;
+}
+
+@media (max-width: 640px) {
+  .project-detail {
+    padding: 1.5rem 1rem 2.5rem;
+  }
+
+  .project-detail-pdf-card {
+    flex-direction: column;
+    padding: 1.25rem;
+  }
+
+  .project-detail-hero-wrap {
+    max-width: 100%;
+  }
+
+  .project-detail-hero-row {
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .project-detail-hero-item {
+    flex: 0 0 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .project-detail-hero-item:not([data-active="true"]) {
+    display: none;
+  }
+
+  .project-detail-hero-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--color-pastel-brown-dark);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    z-index: 2;
+    transition: background var(--transition), color var(--transition);
+  }
+
+  .project-detail-hero-arrow:hover {
+    background: var(--color-white);
+    color: var(--color-brown);
+  }
+
+  .project-detail-hero-arrow svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .project-detail-hero-arrow--prev {
+    left: 0.75rem;
+  }
+
+  .project-detail-hero-arrow--next {
+    right: 0.75rem;
+  }
+
+}

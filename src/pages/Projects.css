@@ -1,0 +1,36 @@
+.projects-content {
+  padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 2rem) clamp(3.5rem, 8vw, 6rem);
+}
+
+.projects-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: clamp(1rem, 3vw, 2rem);
+}
+
+.projects-content--centered .projects-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-content--centered .projects-grid {
+  max-width: 800px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+}
+
+@media (max-width: 640px) {
+  .projects-content {
+    padding: 1.5rem 1rem 3.5rem;
+  }
+
+  .projects-grid {
+    gap: 1.25rem;
+  }
+}
