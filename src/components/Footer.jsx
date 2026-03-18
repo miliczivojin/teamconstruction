@@ -40,7 +40,7 @@ function Footer() {
             </p>
             <p>
               <strong>Telefon:</strong>{' '}
-              <a href="tel:+38116782611">016/782-611</a>
+              <a href="tel:016782611">016/782-611</a>
             </p>
             <p>
               <strong>E-pošta:</strong>{' '}

@@ -52,7 +52,7 @@ export const COMPLETED_PROJECTS = [
     title: 'Momčila Milovanovića 14',
     location: 'Niš, Pantalej',
     description:
-      'Stambeni objekat spratnosti Po+P+4. Moderna novogradnja u Nišu.',
+      'Stambeno-poslovni objekat spratnosti Po+P+5.',
     image: momcilaSlika1,
     exteriorImages: [momcilaSlika1, momcilaSlika2],
     comingSoon: false,
