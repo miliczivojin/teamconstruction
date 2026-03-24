@@ -1,6 +1,7 @@
 import HeroSection from '../components/HeroSection';
 import SeoHead from '../components/SeoHead';
 import logoImg from '../assets/logo.png';
+import direktorImg from '../assets/direktor.jpg';
 import projekat1Slika1 from '../assets/projekat1/slika1.jpg';
 import projekat2Slika1 from '../assets/projekat2/slika1.jpg';
 import projekat3Slika1 from '../assets/projekat3/slika1.jpg';
@@ -76,7 +77,7 @@ function About() {
           <div className="about-leadership-card">
             <div className="about-leadership-img-wrap">
               <img
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80"
+                src={direktorImg}
                 alt=""
                 className="about-leadership-img"
                 loading="lazy"
