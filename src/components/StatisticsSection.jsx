@@ -15,7 +15,7 @@ const STATS = [
     icon: HouseIcon,
   },
   {
-    value: 30,
+    value: 20,
     suffix: '+',
     label: 'Godina iskustva u građevinarstvu',
     icon: CalendarIcon,

@@ -8,12 +8,12 @@ function ProjectsUnderConstruction() {
   return (
     <>
       <SeoHead
-        title="Projekti u izgradnji"
-        description="Stambeni objekti TEAM Construction 018 u izgradnji – Alaska 3, Zetska bb. Moderna novogradnja u Nišu."
+        title="Ponuda stanova u izgradnji"
+        description="Stambeni objekti TEAM CONSTRUCTION DOO u izgradnji – Alaska 3, Zetska bb. Moderna novogradnja u Nišu."
       />
       <HeroSection
-        title="Projekti u izgradnji"
-        subtitle="TEAM Construction 018 projekti u toku."
+        title="Ponuda stanova u izgradnji"
+        subtitle="TEAM CONSTRUCTION DOO projekti u toku."
       />
       <main className="page-content projects-content projects-content--centered">
         <div className="projects-inner">

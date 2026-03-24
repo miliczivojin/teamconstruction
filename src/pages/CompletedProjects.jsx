@@ -9,11 +9,11 @@ function CompletedProjects() {
     <>
       <SeoHead
         title="Gotovi projekti"
-        description="Realizovani stambeni projekti TEAM Construction 018 u Nišu – Momčila, Dejana Dinića, Ivana Gorana Kovačića."
+        description="Realizovani stambeni projekti TEAM CONSTRUCTION DOO u Nišu – Momčila, Dejana Dinića, Ivana Gorana Kovačića."
       />
       <HeroSection
         title="Gotovi projekti"
-        subtitle="Realizovani projekti TEAM Construction 018."
+        subtitle="Realizovani projekti TEAM CONSTRUCTION DOO."
       />
       <main className="page-content projects-content">
         <div className="projects-inner">

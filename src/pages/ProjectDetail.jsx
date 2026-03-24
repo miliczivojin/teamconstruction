@@ -32,7 +32,7 @@ function ProjectDetail() {
 
   const metaDescription =
     [project.description, project.location].filter(Boolean).join(' ') ||
-    `Stambeni projekat ${project.title} – TEAM Construction 018.`;
+    `Stambeni projekat ${project.title} – TEAM CONSTRUCTION DOO.`;
 
   return (
     <main className="page-content project-detail">

@@ -22,14 +22,14 @@ function Navbar() {
     { to: '/', label: 'Početna' },
     { to: '/o-nama', label: 'O nama' },
     { to: '/gotovi-projekti', label: 'Gotovi projekti' },
-    { to: '/projekti-u-izgradnji', label: 'Projekti u izgradnji' },
+    { to: '/projekti-u-izgradnji', label: 'Ponuda stanova u izgradnji' },
   ];
 
   return (
     <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-inner">
         <Link to="/" className="navbar-logo">
-          <img src={logoImg} alt="TEAM Construction 018" className="navbar-logo-img" />
+          <img src={logoImg} alt="TEAM CONSTRUCTION DOO" className="navbar-logo-img" />
         </Link>
         <button
           type="button"

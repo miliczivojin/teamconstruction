@@ -9,14 +9,14 @@ function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <Link to="/" className="footer-logo">
-              <img src={logoImg} alt="TEAM Construction 018" className="footer-logo-img" />
+              <img src={logoImg} alt="TEAM CONSTRUCTION DOO" className="footer-logo-img" />
             </Link>
             <p className="footer-company-name">
-              TEAM CONSTRUCTION 018 D.O.O. DONJE BRIJANJE
+              TEAM CONSTRUCTION DOO
             </p>
             <p>
-              Građevinske usluge i postavljanje podnih i zidnih obloga. Investicije
-              u stambenu izgradnju u Nišu.
+              Građevinske usluge, izvođenje građevinskih radova po sistemu ključ
+              u ruke i investicije u stambenu izgradnju u Nišu.
             </p>
           </div>
           <div className="footer-section">
@@ -29,18 +29,18 @@ function Footer() {
                 <Link to="/gotovi-projekti">Gotovi projekti</Link>
               </li>
               <li>
-                <Link to="/projekti-u-izgradnji">Projekti u izgradnji</Link>
+                <Link to="/projekti-u-izgradnji">Ponuda stanova u izgradnji</Link>
               </li>
             </ul>
           </div>
           <div className="footer-section footer-contact">
             <h4>Kontakt</h4>
             <p>
-              <strong>Adresa:</strong> BB, 16206 Donje Brijanje, Leskovac, Srbija
+              <strong>Adresa:</strong> Topolska 1
             </p>
             <p>
               <strong>Telefon:</strong>{' '}
-              <a href="tel:016782611">016/782-611</a>
+              <a href="tel:0606958100">060 6958100</a>
             </p>
             <p>
               <strong>E-pošta:</strong>{' '}
@@ -52,7 +52,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© {new Date().getFullYear()} TEAM CONSTRUCTION 018 D.O.O. DONJE BRIJANJE. Sva prava zadržana.</p>
+          <p>© {new Date().getFullYear()} TEAM CONSTRUCTION DOO. Sva prava zadržana.</p>
         </div>
       </div>
     </footer>

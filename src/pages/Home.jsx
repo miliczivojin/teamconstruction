@@ -9,11 +9,11 @@ function Home() {
   return (
     <>
       <SeoHead
-        description="Građevinske usluge i moderna stambena izgradnja u Nišu. TEAM Construction 018 – gotovi projekti i objekti u izgradnji."
+        description="Građevinske usluge i moderna stambena izgradnja u Nišu. TEAM CONSTRUCTION DOO – gotovi projekti i objekti u izgradnji."
       />
       <HeroSection
         image={heroImage}
-        title="TEAM Construction 018"
+        title="TEAM CONSTRUCTION DOO"
         subtitle="Građevinske usluge i moderna stambena izgradnja u Nišu."
       />
       <StatisticsSection />
@@ -21,12 +21,12 @@ function Home() {
         <div className="home-inner">
           <section className="home-intro">
             <p className="home-lead">
-              TEAM CONSTRUCTION 018 D.O.O. je pouzdan partner u građevinskoj
-              industriji koji uspešno posluje od 2019. godine. Kao kompanija
-              specijalizovana za postavljanje podnih i zidnih obloga, ali i
-              realizaciju savremenih stambenih objekata, naš fokus je na
-              kvalitetnoj izgradnji, pouzdanoj realizaciji projekata i
-              dugoročnoj vrednosti za investitore i kupce.
+              TEAM CONSTRUCTION DOO je pouzdan partner u građevinskoj industriji
+              sa 20 godina poslovanja. Kao kompanija specijalizovana za
+              izvođenje građevinskih radova po sistemu ključ u ruke i realizaciju
+              savremenih stambenih objekata, naš fokus je na kvalitetnoj
+              izgradnji, pouzdanoj realizaciji projekata i dugoročnoj vrednosti
+              za investitore i kupce.
             </p>
           </section>
           <nav className="home-cards">
@@ -39,7 +39,7 @@ function Home() {
               <span className="home-card-desc">Realizovani objekti</span>
             </Link>
             <Link to="/projekti-u-izgradnji" className="home-card">
-              <span className="home-card-title">Projekti u izgradnji</span>
+              <span className="home-card-title">Ponuda stanova u izgradnji</span>
               <span className="home-card-desc">Šta je u pripremi</span>
             </Link>
           </nav>

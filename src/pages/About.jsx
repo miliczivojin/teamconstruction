@@ -11,27 +11,27 @@ function About() {
     <>
       <SeoHead
         title="O nama"
-        description="Upoznajte TEAM Construction 018 – građevinska kompanija iz Leskovca. Misija, vizija, delatnost i lokacija."
+        description="Upoznajte TEAM CONSTRUCTION DOO – građevinska kompanija iz Leskovca. Misija, vizija, delatnost i lokacija."
       />
       <HeroSection
         title="O nama"
-        subtitle="Upoznajte TEAM Construction 018."
+        subtitle="Upoznajte TEAM CONSTRUCTION DOO."
       />
       <main className="page-content about-content">
         {/* Intro + logo */}
         <section className="about-intro">
           <div className="about-intro-content">
             <div className="about-logo-wrap">
-              <img src={logoImg} alt="TEAM Construction 018" className="about-logo" decoding="async" />
+              <img src={logoImg} alt="TEAM CONSTRUCTION DOO" className="about-logo" decoding="async" />
             </div>
             <div className="about-intro-text">
-              <h2>TEAM CONSTRUCTION 018</h2>
+              <h2>TEAM CONSTRUCTION DOO</h2>
               <p>
-                Građevinska kompanija koja je od svog osnivanja 2019. godine
-                posvećena kvalitetnoj izgradnji i pouzdanoj realizaciji projekata.
-                Kroz rad na različitim građevinskim poslovima, firma je postepeno
-                izgradila reputaciju pouzdanog partnera koji projekte realizuje
-                odgovorno, precizno i u skladu sa visokim standardima struke.
+                Kao preduzetnik posluje od 2014. godine u oblasti izgradnje
+                stambenih objekata. Od 2019. godine prerasta u DOO i ulazi u
+                investicionu gradnju. Danas sa 20 godina poslovanja gradi
+                reputaciju pouzdanog partnera koji projekte realizuje odgovorno,
+                precizno i u skladu sa visokim standardima struke.
               </p>
             </div>
           </div>
@@ -87,7 +87,7 @@ function About() {
               <h3>Ivan Stojanović</h3>
               <p className="about-leadership-role">Vlasnik i direktor</p>
               <p>
-                Vodi kompaniju TEAM Construction 018 sa fokusom na građevinske
+                Vodi kompaniju TEAM CONSTRUCTION DOO sa fokusom na građevinske
                 usluge i investicije u stambenu izgradnju. Pod njegovim
                 vođstvom firma ostvaruje stabilnost i bonitetnu ocenu A+.
               </p>
@@ -99,13 +99,19 @@ function About() {
         <section className="about-services">
           <h2>Delatnost i kapaciteti</h2>
           <p className="about-services-intro">
-            Pretežna delatnost kompanije je postavljanje podnih i zidnih obloga.
-            Pored toga, firma investira u stambenu izgradnju.
+            Pretežna delatnost kompanije je izvođenje građevinskih radova po
+            sistemu ključ u ruke. Pored toga, firma investira u stambenu
+            izgradnju.
           </p>
           <ul className="about-services-list">
             <li>
-              <strong>Postavljanje podnih i zidnih obloga</strong> — Primarna
-              delatnost kompanije. Profesionalno izvođenje radova.
+              <strong>Izvođenje građevinskih radova po sistemu ključ u ruke</strong>{' '}
+              — Primarna delatnost kompanije. Profesionalno izvođenje radova.
+            </li>
+            <li>
+              <strong>Grubi građevinski radovi po sistemu ključ u ruke</strong> —{' '}
+              Stručno izvođenje grubih građevinskih radova kao deo kompletne
+              realizacije projekta.
             </li>
             <li>
               <strong>Investicije u stambenu izgradnju</strong> — Stambeni objekti
@@ -118,8 +124,9 @@ function About() {
               visoka ekonomska stabilnost i nizak nivo poslovnog rizika.
             </li>
             <li>
-              <strong>Kapaciteti</strong> — Kompanija zapošljava 9 radnika i
-              kontinuirano ostvaruje milionske prihode.
+              <strong>Kapaciteti</strong> — Imamo stručni tim građevinskih
+              radnika specijalizovan za sve vrste građevinskih poslova i
+              kontinuirano ostvarujemo milionske prihode.
             </li>
           </ul>
         </section>
@@ -129,7 +136,7 @@ function About() {
           <h2>Gde nas možete naći</h2>
           <p>
             Sedište kompanije nalazi se na adresi{' '}
-            <strong className="about-address-line">BB, 16206 Donje Brijanje, Leskovac, Srbija</strong>.
+            <strong className="about-address-line">Topolska 1</strong>.
             Projekti stambene izgradnje realizuju se u Nišu, opština Pantelej.
           </p>
         </section>

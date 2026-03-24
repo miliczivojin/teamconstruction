@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-const SITE_NAME = 'TEAM Construction 018';
+const SITE_NAME = 'TEAM CONSTRUCTION DOO';
 const DEFAULT_DESC =
   'Građevinske usluge i moderna stambena izgradnja u Nišu. Gotovi projekti i objekti u izgradnji.';
 const CANONICAL_BASE = 'https://teamconstruction018.rs';
